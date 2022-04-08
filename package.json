@@ -1,0 +1,25 @@
+{
+  "name": "tailwind-landingpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tailwindcss -i ./input.css -o ./css/main.css",
+    "watch": "tailwindcss -i ./input.css -o ./css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lijun1in/tailwind-landingpage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lijun1in/tailwind-landingpage/issues"
+  },
+  "homepage": "https://github.com/lijun1in/tailwind-landingpage#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  }
+}
